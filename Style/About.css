@@ -1,0 +1,41 @@
+/* About.css */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 100%;
+  padding: 36px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.about-container h1 {
+  font-size: 28px;
+  color: #0b5ea8;
+  margin: 0;
+}
+.about-container p {
+  font-size: 16px;
+  color: #4b5563;
+  width: 80%;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.about-cards {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+.about-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  padding: 18px;
+  border-radius: 10px;
+  background-color: #f7fbff;
+  border: 1px solid #eef6ff;
+  width: 300px;
+}
